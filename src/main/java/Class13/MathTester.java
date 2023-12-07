@@ -7,6 +7,6 @@ public class MathTester {
    Math obj= new Math();
    obj.add(10,10);
 
-   int 
+
 
 }}
