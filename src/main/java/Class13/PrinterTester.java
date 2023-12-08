@@ -2,7 +2,10 @@ package Class13;
 
 public class PrinterTester {
     public static void main(String[] args) {
-        Printer p =new Printer();
+      Printer p =new Printer();
         p.printHello();
+      p.printWord("Java");
+       // printManyTimes("java", 10);
+
     }
 }
