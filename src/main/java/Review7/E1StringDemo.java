@@ -1,0 +1,13 @@
+package Review7;
+
+public class E1StringDemo {
+    public static void main(String[] args) {
+        String str=new String ("Java ");
+        System.out.println(str.length());
+        int len=str.length();
+        System.out.println(len);
+        System.out.println(str.isEmpty());
+
+        }
+    }
+

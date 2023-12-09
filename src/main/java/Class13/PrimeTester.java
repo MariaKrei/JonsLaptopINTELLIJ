@@ -4,7 +4,10 @@ public class PrimeTester {
     public static void main(String[] args) {
 
 
-    Prime n=new Prime();
-    n.isPrime(9);
-}
-}
+    Prime number=new Prime();
+    int n=13;
+    if (number.isPrime(n)){
+        System.out.println("This is prime number");
+    }else{
+        System.out.println("This is not prime number");
+}}}
