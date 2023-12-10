@@ -9,5 +9,7 @@ public class Substring {
         String str2="Java is fun";
         System.out.println(str2.substring(0,4));
         System.out.println(str2.substring(5,7));
+        System.out.println(str.substring(4));
+        System.out.println();
     }
 }
