@@ -1,26 +1,37 @@
 package Class15;
 
 public class Book {
-    private String car;
+    private String name;
     private int year;
     private String color;
-    public Book(String car, int year, String color) {
-        this.car = car;
+    private String writer;
+    private int pages;
+
+    public Book(String name, int year, String color, String writer) {
+        this.name = name;
         this.year = year;
         this.color = color;
+        this.writer = writer;
     }
-    public Book(int year, String color, String car){
-            this.car = car;
-            this.year = year;
-            this.color = color;
-        }public void PrintInfo(){
-        System.out.println(car+" "+year+" "+color);
+    public Book(String name, int year, String color, String writer, int pages) {
+        this(name,year,color,writer);
+        this.pages=pages;
     }
 
+
+
+
+
+    public void PrintInfo(){
+        System.out.println(name+" "+year+" "+color+" "+writer);
+    }
+    public void PrintInfoAll(){
+        System.out.println(name+" "+year+" "+color+" "+writer+ " "+pages);}
+
     public static void main(String[] args) {
-        Book a=new Book("BMW", 2014, "White");
-        Book b=new Book("BMW", 2014, "White");
-        b.PrintInfo();
+        Book a=new Book("Life", 2014, "White", "Kashl", 100);
+        Book b=new Book("Happines", 2015, "Blue", "Kashl");
+        b.PrintInfoAll();
         a.PrintInfo();
     }
     }

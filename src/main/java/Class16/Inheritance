@@ -1,0 +1,7 @@
+Inheritance:
+Inheritance allows us to build classes from existing classes.
+We can inherit fields and methods from existing classes if we need them in other classes.
+There are 5 major types of inheritance.
+1) Single inheritance (1 parent one child)
+2) Hierarchical Inheritance (1 parent and several child)
+3)multilevel inheritance (grandparent - parent - child - grand child

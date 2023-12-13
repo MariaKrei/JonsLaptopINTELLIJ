@@ -3,10 +3,20 @@ package Class15;
 public class Teachers {
     private String name;
     private String address;
+    private int age;
+
+
     Teachers(String name, String address){
         this.name=name;
         this.address=address;
-    } public void displayInfo(){
+    }
+    public Teachers(String name, String address, int age) {
+        this.name=name;
+        this.age = age;
+        this.address=address;
+    }
+
+    public void displayInfo(){
         System.out.println(name+" "+address);
     }
 
@@ -16,5 +26,8 @@ public class Teachers {
         a.displayInfo();
         Teachers b=new Teachers("Lera", "10 Pond ct");
         b.displayInfo();
+        Teachers c=new Teachers("Lera", "10 Pond ct", 25);
+        b.displayInfo();
+
     }
 }
