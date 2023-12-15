@@ -1,0 +1,5 @@
+Super Keyword
+is used to access fields/methods/constructors from parents class when there is
+an inheritance relationship between 2 clsses.
+Whenever conflict with the same variables names we use super. to help.
+20if parent class has constructor -  chiln class should have constructor super()

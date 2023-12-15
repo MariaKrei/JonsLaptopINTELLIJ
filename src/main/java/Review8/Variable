@@ -1,0 +1,4 @@
+Local - inside block of code
+if(10>5){
+int sum=0;}
+Cant be used outside of block of code

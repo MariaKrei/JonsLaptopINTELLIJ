@@ -1,0 +1,6 @@
+Method is a block of code that performs a specific action when called.
+In Java methods can only exist inside a class. If method is instance method we need to create the object of the class to call if method is static we use name of the class method name.
+Benefit : they allow us to reuse code
+Tyes of methods:
+1) methods with void - when you dont plan to use something in other classes
+2) Methods with specific return types (String, int double)
