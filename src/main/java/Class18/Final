@@ -1,0 +1,8 @@
+1)final - no more overriding in child class.
+we place it in parent class.
+final void method.
+
+
+2)we can use it in we can use with class and it means no more extensions.
+publiv final class
+3)

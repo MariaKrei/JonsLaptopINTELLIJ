@@ -1,4 +1,19 @@
-Local - inside block of code
+Local - inside block of code. whenever i a, writing any logic or need to store some data i have to chose local
 if(10>5){
 int sum=0;}
 Cant be used outside of block of code
+
+Instance - we use when we want to create multiple objects, whenewer i want to reuse
+ variable at least at two methods i have to choose instance.
+
+ Static -global variables -
+ local - in method
+ instance - in class
+ static - anywhere, if we put public static
+
+ How do we know when we should create a static variable
+ whenever we want to store somwthing that is universal (constance) and it does ussually change we safely go and
+ create static variable for that.
+ if we donmt use any instance  variables we can do static.
+ How do we know when we create static method?
+ when our methods dont requaire instance fields we create static

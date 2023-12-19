@@ -1,0 +1,10 @@
+MethodOverride:
+Method Overriding allows child classes to modify methods which are beinh inherited from parent classes.
+Benefits;
+it gives flexibility to child classes to change methods which are coming from parents if they want to.
+rules
+data type method should be the same , method name should be the same , parameters should be the same.
+we can increase visibility and change it to public from default.
+private, default, protected, public
+we cannot decrese visibility.
+static method cannot be overriden.
