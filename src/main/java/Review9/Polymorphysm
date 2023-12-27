@@ -1,0 +1,3 @@
+2 types of polymorphism:
+1) Compile  Time/Static Biding/ achieved through method Overloading
+2) RunTime / dynamic binding/ late Biding achieved through method overriding

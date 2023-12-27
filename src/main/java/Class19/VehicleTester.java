@@ -9,17 +9,13 @@ for (Vehicle vehicle:arr){
     vehicle.printInfo();
     if (vehicle instanceof Car){
         Car c=(Car)vehicle;
-        c.shutDoor();
-
-    }
+        c.shutDoor();}
     if (vehicle instanceof Truck){
         Truck t=(Truck)vehicle;
-        t.heavyLoad();
-    }
+        t.heavyLoad();}
     if (vehicle instanceof Motorcycle){
         Motorcycle m=(Motorcycle) vehicle;
-    m.takeHelmet();
-    }
+    m.takeHelmet();}
     if (vehicle instanceof Bicycle){
         Bicycle b=(Bicycle) vehicle;
         b.putBasketOn();

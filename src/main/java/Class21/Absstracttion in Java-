@@ -1,0 +1,19 @@
+Abstractions is something what is not clear or not complete.
+We use abstraction to create methods which are not incomplete. They dont have a body.
+ They have only method headers(signature + non access modifier).
+
+ Why should we use abstract method:
+ 1) when we know that every child will be overriding a method we don't need to have a method body
+ 2) It acts as a template when we create a method as abstract every child must provide body for that.
+ it is used to enforce methods
+
+ rules:
+ 1) as soon as we have any abstract method we have to add abstract word to class
+ 2) no restriction, we can have normal methods and abstract methods
+ 3) whenever we create abstract class we cannot create an object of this class
+ 4) cannot be private or cannot use final keyword
+
+ Intetrfaces:
+ is something which is common two sysytem. It is like a contract that help us know what type of methods should be present in a class for that class to be able to work with other classes.
+
+
