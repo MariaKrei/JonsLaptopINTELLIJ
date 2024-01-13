@@ -1,0 +1,12 @@
+Encapsulation:
+1) for every entities should be separate class
+2) instance variables should be private
+
+Encaps says create a class for every entity and define methods related to that
+ entity in that class instead of putting everything inside the main method.
+ It says make your fields private and define getter setter method for this fields.
+benefits: secured and orginized code.
+
+
+
+

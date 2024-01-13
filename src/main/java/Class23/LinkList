@@ -1,0 +1,20 @@
+Set:
+properties
+Sets are very similar to list but they don/t allow duplicate elements
+2) print numbers in random
+no get method
+
+
+HashSets:
++: its fast
+downside:
+they don't store data in order
+
+
+LinkedHashSet:
++it remember the order
+-: slower than HashSet
+
+TreeSet
++; it keeps data sorted
+-: inserting new element is very slow

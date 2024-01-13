@@ -1,0 +1,8 @@
+Interface:
+interfaces are like contracts which makes sure that everyvody is on the same page to achieve through abstraction.
+rules:
+1) by default all methods are public and abstract in interface
+20 there are not instance variabls inside interface
+3) no constractors inside interface
+4)no objects of interface
+5)  public static final by default variables created
