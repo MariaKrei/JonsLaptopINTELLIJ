@@ -1,0 +1,27 @@
+Coll Framework is collection of classes and interfaces which help us store data easily. The clesses in this framework dynamic and have a lot of built in methods
+that we can use to manipulate data .
+Mian Interfaces:
+List:
+1) can store duplicate numbers
+2)remember the order
+There are 2 main classes which implement  the llist interface:
+a)ArrayLIst
+2) LInkedList
+Difference:
+ArrayList internally uses array which makes accessing the elements fast but adding or removing the elements is superslow.
+On the othr hand linkedList uses a doublely LinkedList internally.
+
+if w eneed add or removed we use linked
+if extract we use arraylist
+
+
+SEt:
+doesn't allow duplicates .
+!)Hashset: fast , and minus - print in random order, doent remember order
+2)LinkedHashSet: remember the order but slower than HashSet
+3)TreeSet: sorted, but imsertion is very slow
+
+
+Maps
+!) HashMap 2)LinkedHashMap 3)TreeMap
+

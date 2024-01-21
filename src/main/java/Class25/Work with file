@@ -1,0 +1,10 @@
+FileHandling
+its process of reading and writing data to a file.
+If we want to read or write data to a file we need 3  following things:
+1) location of the file on the computer
+2)Navigate to location
+3)A special software that knows how to read write data to that file must be installed on the computer.
+
+steps to create a new folder in project
+//rigth click to sdetB18 and click on new and choose directory  directory
+

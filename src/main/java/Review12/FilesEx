@@ -1,0 +1,8 @@
+Files Handling
+Dealing with files reading/writing/copying/moving files using programming
+1.find Location of the file
+2) navigate to location / bring the file to ram
+3) special class/software that knows how to read write data to the file
+
+Confifuration
+used to store  sensivive configuration related information  like url, login, password, and etc

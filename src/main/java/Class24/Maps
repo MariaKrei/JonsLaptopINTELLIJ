@@ -1,0 +1,7 @@
+Maps
+Maps allow us to store key value pairs . Keys are aalvais unique but values can duplicate.
+There are 3 main classes which implement Map interface
+
+1) HashMap
+2)LinkedHashMap
+3)TreeMap

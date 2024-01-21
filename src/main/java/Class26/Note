@@ -1,0 +1,13 @@
+Why should we learn how to read write data in Excel file?
+When we perform data driven twestiong we need to read/write data in Excel files.
+
+What do we need to know for reading the data from any files?
+1I we must know location of the file
+2) We must know how to bring the data from the file into the script/java code
+3) we must have a class to manipulate the file.
+
+How to get the location of file:
+1) rigth click on element and copy path/reference.
+
+
+//http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/dashboard
